@@ -18,7 +18,13 @@ Goal is to make our data normal distribution while working with liearRegression,
 
 ### Power Transformer
 - Box-Cox transformation
-- Yeo-Johnson
+1. Negaive and 0 does not work on this
+2. Trick: add a very small number (i.e `X_train+0.00000001`) to voild `x_i/0`
+
+![QQ Plot](img/Box-Cox.png)
+
+- Yeo-Johnson transformation
+1. Fixes the 0 problem in Box-Cox
 
 How to find if data is Normal?
 - `sns.distplot()`
