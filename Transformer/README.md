@@ -32,3 +32,10 @@ Here's how to interpret a Q-Q plot to determine if a dataset is approximately no
 - **S-Shaped Curve**: An S-shaped curve suggests that the dataset has a different shape compared to a normal distribution. For example, if the curve starts low, rises above the straight line, and then falls below it, it indicates that the dataset has a peak that is higher and narrower than a normal distribution (leptokurtic). Conversely, if the curve starts above the straight line, dips below it, and then rises above it again, it indicates that the dataset has a flatter peak than a normal distribution (platykurtic).
 
 Points Off the Line: Individual points that deviate significantly from the straight line may indicate outliers in the dataset.
+
+![QQ Plot](Transformer/img/qq_plot.png)
+
+![QQ Plot](/workspaces/ML/Transformer/img/qq_plot.png)
+
+
+
